@@ -1,0 +1,22 @@
+
+.content {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .footer {
+    background-color: #4682b4; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+  }
+  

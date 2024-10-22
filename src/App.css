@@ -1,0 +1,32 @@
+.main-container {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  background-color: aqua;
+  display: flex;
+  flex: 1;
+}
+
+/* Stile für den Home-Button */
+.homeButton {
+  display: block;
+  margin: 20px auto; /* Zentriert den Button horizontal */
+  padding: 15px 30px; /* Vergrößert den Button */
+  font-size: 1.2rem; /* Größere Schriftgröße */
+  background-color: #4682b4; /* SteelBlue Hintergrundfarbe */
+  color: white; /* Weißer Text */
+  border: none; /* Entfernt die Standard-Rahmen */
+  border-radius: 8px; /* Runde Ecken */
+  cursor: pointer; /* Zeigt den Cursor als Hand an */
+  transition: background-color 0.3s; /* Weiche Übergänge bei Hover */
+}
+
+.homeButton:hover {
+  background-color: #315f82; /* Dunklere Farbe bei Hover */
+}
+
